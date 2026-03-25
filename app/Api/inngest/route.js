@@ -4,9 +4,8 @@ import {
   syncUserCreation,
   syncUserUpdation,
   syncUserDeletion,
-} from "@/config/inngest";
+} from "@/app/config/inngest";
 
-// Create an API that serves Inngest functions
 export const { GET, POST, PUT } = serve({
   client: inngest,
   functions: [
